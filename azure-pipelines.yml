@@ -10,7 +10,7 @@ trigger:
 
 jobs:
 - job: restqa
-  container: restqa/restqa 
+  container: restqa/restqa:latest
   steps:
   - script: echo Hello, world!
     displayName: 'Run a one-line script'
